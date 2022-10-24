@@ -29,14 +29,8 @@ topic_arn = response["TopicArn"]
 
 
 
-response = client.subscribe(TopicArn=topic_arn, Protocol="Email", Endpoint="jimdoran64@gmail.com")
-subscription_arn = response["SubscriptionArn"]
-
-
 response = client.subscribe(TopicArn=topic_arn, Protocol="Email", Endpoint="doranj@wcsu.edu")
 subscription_arn = response["SubscriptionArn"]
-
-
 
 
 
@@ -56,7 +50,6 @@ print ( subscriptions )
 
 
 
-
 topics = client.list_topics().get('Topics')
 
 for topic in topics:
@@ -67,11 +60,7 @@ for topic in topics:
 
 
 
-
         
-
-
-
-print ("finished")
-
+print ("Finished")
+#sys.exit("Finished")   
         
