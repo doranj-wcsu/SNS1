@@ -37,8 +37,8 @@ subscription_arn = response["SubscriptionArn"]
 
 # Publish to topic
 client.publish(TopicArn=topic_arn, 
-            Message="message text", 
-            Subject="subject used in emails only")
+            Message="Chicken or Fish for Lunch !", 
+            Subject="subject is used Emails")
 
 
 
