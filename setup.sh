@@ -3,7 +3,7 @@
 #read newdir
 #`mkdir $newdir`
 
-ls ( list files ) 
+ls
 #mkdir COS1
 #cd COS1
 apt list --upgradable
