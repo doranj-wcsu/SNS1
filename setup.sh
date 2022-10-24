@@ -1,11 +1,11 @@
 #!/bin/bash
-echo "Enter directory name"
-read newdir
-`mkdir $newdir`
+#echo "Enter directory name"
+#read newdir
+#`mkdir $newdir`
 
 ls ( list files ) 
-mkdir COS1
-cd COS1
+#mkdir COS1
+#cd COS1
 apt list --upgradable
 sudo apt update
 sudo apt-get update
@@ -15,4 +15,6 @@ sudo apt install pip3
 sudo pip3 install flas
 
 pip3 install -r requirements.txt
+pip3 install boto3
+
 sudo apt update
